@@ -1,0 +1,47 @@
+# LeetCode (Python)
+
+Problems are generated, tested, and submitted with [leetgo](https://github.com/j178/leetgo).
+Progress tracking is a tiny standard-library script (`python3 -m lc`) that reads your **live**
+LeetCode status — no third-party Python dependencies.
+
+## Setup
+
+- Install leetgo: `brew install j178/tap/leetgo`
+- `leetgo.yaml` is configured to generate **Python3** solutions into `python3/<id>-<slug>/`.
+- Auth: both leetgo and the tracker read credentials from `.env` (gitignored — never commit it). Copy `.env.example` to `.env`, then fill in from DevTools → Application → Cookies → leetcode.com:
+  - `LEETCODE_SESSION` ← the `LEETCODE_SESSION` cookie
+  - `LEETCODE_CSRFTOKEN` ← the `csrftoken` cookie
+
+## Workflow
+
+```bash
+leetgo pick two-sum        # -> python3/0001-two-sum/{solution.py,testcases.txt,question.md}
+# write your code between the `@lc code=begin` / `@lc code=end` markers in solution.py
+leetgo test last -L        # run the sample cases LOCALLY (note the -L flag)
+leetgo test last           # run on LeetCode's judge (also back-fills expected outputs)
+leetgo submit last         # submit (needs credentials in .env)
+python3 -m lc              # regenerate the Progress table below from live status
+```
+
+`leetgo pick` accepts a number (`2`), a slug (`add-two-numbers`), or `today`; `last` refers to the
+most recently generated problem. Run `python3 -m lc` anytime to refresh the table (pure stdlib, so no venv is needed).
+
+## How tracking works
+
+`python3 -m lc` scans `python3/` for problem folders, fetches your solved status from LeetCode's
+problem-list API (authenticated via `LEETCODE_SESSION`), and rewrites the table between the markers.
+It reflects your real account no matter how you submitted — leetgo, the website, anything.
+
+## Notes
+
+- `python3/.venv` + `python3/requirements.txt` are leetgo's local-test harness (the `.venv` is gitignored).
+
+## Progress
+
+<!-- LC-INDEX:START -->
+| # | Problem | Difficulty | Status |
+| ---: | --- | --- | --- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ✅ |
+
+_1 solved / 1 tracked_
+<!-- LC-INDEX:END -->
