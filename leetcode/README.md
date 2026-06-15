@@ -45,7 +45,10 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | ✅ |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | — |
+| 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | ✅ |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | ✅ |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | ✅ |
+| 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/) | Hard | ✅ |
 
-_4 solved / 5 tracked_
+_7 solved / 8 tracked_
 <!-- LC-INDEX:END -->

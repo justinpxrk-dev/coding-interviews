@@ -7,7 +7,7 @@ My personal workspace for coding interview practice — LeetCode solutions in Py
 <!-- LC-SUMMARY:START -->
 | Total | Easy | Medium | Hard |
 | :-: | :-: | :-: | :-: |
-| 4 / 5 | 1 / 1 | 3 / 3 | 0 / 1 |
+| 7 / 8 | 2 / 2 | 4 / 4 | 1 / 2 |
 <!-- LC-SUMMARY:END -->
 
 `solved / tracked`, refreshed by `python3 -m lc`. Full per-problem list: [`leetcode/README.md`](leetcode/README.md#progress).
