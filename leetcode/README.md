@@ -45,13 +45,25 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | ✅ |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | — |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | ✅ |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | ✅ |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | ✅ |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | ✅ |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | ✅ |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | ✅ |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | ✅ |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | ✅ |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | ✅ |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | ✅ |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✅ |
+| 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | Hard | ✅ |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | ✅ |
+| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | ✅ |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | ✅ |
+| 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | Medium | ✅ |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | ✅ |
 | 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/) | Hard | ✅ |
 
-_10 solved / 11 tracked_
+_22 solved / 23 tracked_
 <!-- LC-INDEX:END -->
