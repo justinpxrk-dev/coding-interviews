@@ -47,23 +47,41 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | — |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | ✅ |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | ✅ |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | ✅ |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | ✅ |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | ✅ |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | ✅ |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | ✅ |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | ✅ |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | ✅ |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | ✅ |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | ✅ |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | ✅ |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | ✅ |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | ✅ |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | ✅ |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | ✅ |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | ✅ |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | ✅ |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | ✅ |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | ✅ |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | ✅ |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | ✅ |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | ✅ |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✅ |
 | 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | Hard | ✅ |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | ✅ |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | ✅ |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | ✅ |
+| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | ✅ |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | ✅ |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | Medium | ✅ |
+| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | ✅ |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | ✅ |
 | 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/) | Hard | ✅ |
+| 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | ✅ |
+| 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | ✅ |
 
-_22 solved / 23 tracked_
+_40 solved / 41 tracked_
 <!-- LC-INDEX:END -->

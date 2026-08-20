@@ -12,12 +12,14 @@ class Solution:
     # Space Complexity: O(1)
     def canJump(self, nums: List[int]) -> bool:
         n = len(nums)
-        starting_index = n - 1
-        for i in range(n - 2, -1, -1):
-            if i + nums[i] >= starting_index:
-                starting_index = i
+        reachable_index = 0
+        for i in range(n):
+            if i > reachable_index:
+                return False
 
-        return starting_index == 0
+            reachable_index = max(reachable_index, i + nums[i])
+
+        return True
 
 # @lc code=end
 
