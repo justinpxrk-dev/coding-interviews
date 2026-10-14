@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# Created by Justin Park at 2026/07/13 21:20
-# leetgo: 1.4.17
+# Created by Justin Park at 2026/08/20 16:44
+# leetgo: 1.4.18
 # https://leetcode.com/problems/jump-game-ii/
 
 
@@ -10,22 +10,20 @@ from leetgo_py import deserialize, read_line, serialize
 
 
 class Solution:
-    # N = length of list
+    # N = length of array
     # Time Complexity: O(N)
     # Space Complexity: O(1)
     def jump(self, nums: list[int]) -> int:
-        num_jumps = 0
-        i = 0
         n = len(nums)
-        max_reachable_index = 0
+        last_reachable_index = max_reachable_index = 0
+        num_jumps = 0
 
-        while i < n - 1:
-            for j in range(i + 1, i + nums[i] + 1):
-                if j + nums[j] > max_reachable_index:
-                    max_reachable_index = j + nums[j]
-                    i = j
+        for i in range(n - 1):
+            max_reachable_index = max(max_reachable_index, i + nums[i])
 
-            num_jumps += 1
+            if i == last_reachable_index:
+                num_jumps += 1
+                last_reachable_index = min(max_reachable_index, n - 1)
 
         return num_jumps
 

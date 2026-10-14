@@ -11,7 +11,7 @@ from leetgo_py import deserialize, read_line, serialize
 
 class Solution:
     # N = length of board, S = number of valid solutions
-    # Time Complexity: O(N! + S * N ^ 2)
+    # Time Complexity: O(N * N! + S * N ^ 2)
     # Auxiliary Space Complexity: O(N)
     # Output Space Complexity: O(S * N ^ 2)
     def solveNQueens(self, n: int) -> list[list[str]]:

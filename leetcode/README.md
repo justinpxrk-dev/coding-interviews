@@ -54,8 +54,11 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | ✅ |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | ✅ |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | ✅ |
+| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | Hard | ✅ |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | ✅ |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | ✅ |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | ✅ |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | ✅ |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | ✅ |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | ✅ |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | ✅ |
@@ -68,8 +71,10 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | ✅ |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | ✅ |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | ✅ |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | ✅ |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | ✅ |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✅ |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | ✅ |
 | 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | Hard | ✅ |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | ✅ |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | ✅ |
@@ -83,5 +88,5 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | ✅ |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | ✅ |
 
-_40 solved / 41 tracked_
+_45 solved / 46 tracked_
 <!-- LC-INDEX:END -->

@@ -10,31 +10,26 @@ from leetgo_py import deserialize, read_line, serialize
 
 
 class Solution:
-    # N = length of string, k = size of alphabet
+    # N = length of string, k = number of letters in alphabet
     # Time Complexity: O(N)
     # Auxiliary Space Complexity: O(k)
-    # Output Space Complexity: O(k)
+    # Output Space Complexity: O(min(N, k))
     def partitionLabels(self, s: str) -> list[int]:
         last_char_index: dict[str, int] = {}
-        result: list[int] = []
-        partition_boundary = 0
+        partitions: list[int] = []
 
-        for i, char in enumerate(s):
-            if char not in last_char_index:
-                result.append(1)
-            else:
-                while (
-                    partition_boundary > 0
-                    and partition_boundary > last_char_index[char]
-                ):
-                    partition_boundary -= result.pop()
+        for i, ch in enumerate(s):
+            last_char_index[ch] = i
 
-                result.append(i + 1 - partition_boundary)
+        start, end = 0, 0
+        for i, ch in enumerate(s):
+            end = max(end, last_char_index[ch])
 
-            last_char_index[char] = i
-            partition_boundary = i + 1
+            if i == end:
+                partitions.append(end + 1 - start)
+                start = end + 1
 
-        return result
+        return partitions
 
 
 # @lc code=end
