@@ -68,8 +68,10 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | ✅ |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | ✅ |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | ✅ |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | ✅ |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | ✅ |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | ✅ |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | ✅ |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | ✅ |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | ✅ |
@@ -88,5 +90,5 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | ✅ |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | ✅ |
 
-_45 solved / 46 tracked_
+_47 solved / 48 tracked_
 <!-- LC-INDEX:END -->
