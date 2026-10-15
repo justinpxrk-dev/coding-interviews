@@ -37,15 +37,31 @@ cd coding-interviews
 
 ### 2. Install prerequisites
 
-- **Python 3.14** — the version pinned in [`leetcode/.python-version`](leetcode/.python-version).
-- **[leetgo](https://github.com/j178/leetgo)** — generates, tests, and submits problems:
-  ```bash
-  brew install j178/tap/leetgo
-  ```
+- **Python 3.15** — the version pinned in [`leetcode/.python-version`](leetcode/.python-version), available as `python3` for leetgo's automatic setup.
+- **[uv](https://docs.astral.sh/uv/)** — creates the Python environment and installs its dependencies.
+- **[leetgo](https://github.com/j178/leetgo)** — generates, tests, and submits problems.
 
-Nothing else needs installing by hand. The progress tracker (`python3 -m lc`) is pure standard library, and leetgo creates its own local-test virtualenv (`leetcode/python3/.venv`) automatically the first time you pick or test a problem.
+Install uv and leetgo with Homebrew:
 
-### 3. Set up LeetCode auth
+```bash
+brew install uv j178/tap/leetgo
+```
+
+### 3. Set up the Python environment
+
+From the repository root:
+
+```bash
+cd leetcode
+uv venv python3/.venv
+uv pip sync --python python3/.venv/bin/python python3/requirements.txt
+```
+
+uv reads `.python-version` when creating the environment. Leetgo uses `python3/.venv` for local tests; its generated `python3/requirements.txt` is tracked so fresh clones have the dependency versions. The environment itself is gitignored.
+
+After a Python version change, follow the [environment rebuild instructions](leetcode/README.md#rebuilding-the-python-environment). The progress tracker (`python3 -m lc`) uses only the standard library and does not need the venv.
+
+### 4. Set up LeetCode auth
 
 Both leetgo and the progress tracker read your LeetCode credentials from `leetcode/.env`. From the `leetcode/` directory, copy the template:
 
@@ -60,7 +76,7 @@ Then, while logged in to [leetcode.com](https://leetcode.com), open DevTools →
 
 `.env` is gitignored — never commit it.
 
-### 4. Verify
+### 5. Verify
 
 From the `leetcode/` directory:
 

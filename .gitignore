@@ -7,8 +7,5 @@ __pycache__/
 .env
 .cache/
 
-# leetgo local-test harness (auto-generated on pick/test)
-leetcode/python3/requirements.txt
-
 # Agent local notes (not shared)
 .agents/lessons.md
