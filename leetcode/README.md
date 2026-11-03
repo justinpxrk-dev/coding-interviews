@@ -6,7 +6,7 @@ LeetCode status — no third-party Python dependencies.
 
 ## Setup
 
-- Install uv and leetgo: `brew install uv j178/tap/leetgo`.
+- Install uv and leetgo: `brew install uv leetgo`.
 - Python 3.15 is pinned in `.python-version`. Leetgo's automatic setup uses `python3` on `PATH`, so keep it aligned with the pinned version.
 - `leetgo.yaml` is configured to generate **Python3** solutions into `python3/<id>-<slug>/`.
 

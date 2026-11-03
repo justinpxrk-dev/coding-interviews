@@ -1,6 +1,6 @@
 # Coding Interviews
 
-My personal workspace for coding interview practice — LeetCode solutions in Python (frontend exercises to come). Each problem lives in its own self-contained folder, and a tiny standard library tracker keeps the table below in sync with my live LeetCode account.
+My personal workspace for coding interview practice — LeetCode solutions in Python. Each problem lives in its own self-contained folder, and a tiny standard library tracker keeps the table below in sync with my live LeetCode account.
 
 ## Progress at a glance
 
@@ -44,7 +44,7 @@ cd coding-interviews
 Install uv and leetgo with Homebrew:
 
 ```bash
-brew install uv j178/tap/leetgo
+brew install uv leetgo
 ```
 
 ### 3. Set up the Python environment
