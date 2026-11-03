@@ -1,10 +1,9 @@
 #!/usr/bin/env python
-# Created by Justin Park at 2026/08/05 03:36
-# leetgo: 1.4.17
+# Created by Justin Park at 2026/10/15 00:33
+# leetgo: 1.5.1
 # https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 
-
-from bisect import bisect_left
+from heapq import heappop_max, heappush_max
 
 from leetgo_py import deserialize, read_line, serialize
 
@@ -14,22 +13,32 @@ from leetgo_py import deserialize, read_line, serialize
 class Solution:
     # N = number of jobs
     # Time Complexity: O(N log(N))
-    # Space Complexity: O(N)
+    # Auxiliary Space Complexity: O(N)
+    # Output Space Complexity: O(1)
     def jobScheduling(
         self, startTime: list[int], endTime: list[int], profit: list[int]
     ) -> int:
-        jobs = sorted(zip(startTime, endTime, profit))
-        n = len(profit)
-        dp: list[int] = [0 for _ in range(n)]
-        dp[-1] = jobs[-1][2]
-        for i in range(n - 2, -1, -1):
-            _, end_time, job_profit = jobs[i]
-            next_i = bisect_left(jobs, end_time, lo=i + 1, key=lambda job: job[0])
-            dp[i] = max(
-                dp[i + 1], job_profit + dp[next_i] if next_i < n else job_profit
+        n = len(startTime)
+        sorted_job_indices: list[int] = sorted(
+            range(n), key=lambda job_index: -endTime[job_index]
+        )
+        # Max-heap storing tuples of start time and best total profit for that
+        # start time
+        max_heap: list[tuple[int, int]] = []
+        max_profit = 0
+
+        for job_index in sorted_job_indices:
+            while max_heap and endTime[job_index] <= max_heap[0][0]:
+                max_profit = max(max_profit, heappop_max(max_heap)[1])
+
+            heappush_max(
+                max_heap, (startTime[job_index], profit[job_index] + max_profit)
             )
 
-        return dp[0]
+        for _, total_profit in max_heap:
+            max_profit = max(max_profit, total_profit)
+
+        return max_profit
 
 
 # @lc code=end

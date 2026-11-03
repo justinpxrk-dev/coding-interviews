@@ -68,12 +68,13 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ✅ |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | ✅ |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | — |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | ✅ |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | ✅ |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | ✅ |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | ✅ |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | ✅ |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | ✅ |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | ✅ |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | ✅ |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | ✅ |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | ✅ |
@@ -103,6 +104,8 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | ✅ |
 | 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | Hard | ✅ |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | ✅ |
+| 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | ✅ |
+| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | Hard | ✅ |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | ✅ |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | ✅ |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | ✅ |
@@ -111,8 +114,10 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | ✅ |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | ✅ |
 | 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/) | Hard | ✅ |
+| 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | ✅ |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium | ✅ |
 | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | ✅ |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | ✅ |
 
-_47 solved / 48 tracked_
+_53 solved / 53 tracked_
 <!-- LC-INDEX:END -->
