@@ -1,0 +1,11 @@
+input:
+"abcdebdde"
+"bde"
+output:
+"bcde"
+
+input:
+"jmeqksfrsdcmsiwvaovztaqenprpvnbstl"
+"u"
+output:
+""

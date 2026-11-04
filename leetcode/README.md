@@ -99,7 +99,9 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | ✅ |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | ✅ |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | ✅ |
+| 256 | [Paint House](https://leetcode.com/problems/paint-house/) | Medium | ✅ |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | ✅ |
+| 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) | Hard | ✅ |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✅ |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | ✅ |
 | 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | Hard | ✅ |
@@ -111,6 +113,7 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | ✅ |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | ✅ |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | Medium | ✅ |
+| 727 | [Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) | Hard | ✅ |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | ✅ |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | ✅ |
 | 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/) | Hard | ✅ |
@@ -119,5 +122,5 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | ✅ |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | ✅ |
 
-_53 solved / 53 tracked_
+_56 solved / 56 tracked_
 <!-- LC-INDEX:END -->
