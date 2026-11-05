@@ -6,6 +6,3 @@ __pycache__/
 # Local secrets & caches
 .env
 .cache/
-
-# Agent local notes (not shared)
-.agents/lessons.md

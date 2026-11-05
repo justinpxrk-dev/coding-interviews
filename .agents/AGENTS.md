@@ -6,11 +6,6 @@ Guidance for AI coding agents working in this repository.
 
 A personal coding-interview practice repo. Today it holds LeetCode solutions in Python under `leetcode/python3/`, driven by the external **leetgo** CLI plus a small custom progress tracker (`leetcode/lc/`). Frontend exercises may be added alongside `leetcode/` later.
 
-## Agent conventions
-
-- **`.agents/lessons.md`** (gitignored, local-only) — a running log of mistakes and corrections. Read it before starting, and append a short dated entry whenever you get something wrong or the maintainer corrects you, so the same mistake isn't repeated. Because it's gitignored, a fresh clone won't have it — if it's missing, create it first with a `# Lessons` heading followed by `## YYYY-MM-DD` sections that hold the bullet entries.
-- **`.agents/personalities/*.md`** — personality definitions you can adopt. When asked to assume a personality, read the matching file and follow its voice and priorities for that session. `template.md` is the skeleton for writing new ones, not a persona itself.
-
 ## Commands
 
 Run everything from the `leetcode/` directory — that's where `leetgo.yaml` and the `lc` package live.
