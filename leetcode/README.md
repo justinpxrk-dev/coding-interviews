@@ -114,13 +114,17 @@ It reflects your real account no matter how you submitted — leetgo, the websit
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | ✅ |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | Medium | ✅ |
 | 727 | [Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) | Hard | ✅ |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | ✅ |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | ✅ |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | ✅ |
 | 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/) | Hard | ✅ |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | ✅ |
+| 882 | [Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/) | Hard | ✅ |
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium | ✅ |
 | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | ✅ |
+| 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | ✅ |
+| 2203 | [Minimum Weighted Subgraph With the Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/) | Hard | ✅ |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | ✅ |
 
-_56 solved / 56 tracked_
+_60 solved / 60 tracked_
 <!-- LC-INDEX:END -->

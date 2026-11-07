@@ -6,6 +6,10 @@ Guidance for AI coding agents working in this repository.
 
 A personal coding-interview practice repo. Today it holds LeetCode solutions in Python under `leetcode/python3/`, driven by the external **leetgo** CLI plus a small custom progress tracker (`leetcode/lc/`). Frontend exercises may be added alongside `leetcode/` later.
 
+## Hints and solutions
+
+Give hints, suggest approaches, or reveal solutions only when the user explicitly asks for that level of help.
+
 ## Commands
 
 Run everything from the `leetcode/` directory — that's where `leetgo.yaml` and the `lc` package live.
